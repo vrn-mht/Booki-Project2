@@ -422,7 +422,7 @@ figure {
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
     .main-container { 
-        width: 1024px;
+        width: 100%;
     }
    
     nav {
@@ -431,6 +431,10 @@ figure {
             justify-items: stretch;
             align-items: center;
     }
+    .filters-class{
+        padding: 17px 12px;
+    }
+    
     .hebergements-and-populaires {
         flex-direction: column;
     }
@@ -544,15 +548,16 @@ figure {
     
  /* //////////////// Search bar ////////////// */
  .map {
-   justify-content: center;
-   width: 100%;
-   display: flex;
-    flex-direction: row;
-    margin: auto;
+    font-size: 119%;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-left: 15px;
  }
  form {
     height: 50px;
  }
+
 
  .search-bar input{
     font-size: 100%;
@@ -591,8 +596,7 @@ figure {
     display: flex;
     margin-top: 33px;
     cursor: pointer;
-    margin-left: auto;
-    
+    margin-left: auto;  
 }
 
  .all-filters {
