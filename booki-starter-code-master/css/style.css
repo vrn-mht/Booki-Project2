@@ -431,6 +431,14 @@ figure {
     .filters-class{
         padding: 11px 8px;
     }
+    .filter-and-buttons { 
+        flex-direction: column;
+     }
+     .tabletClass {
+        padding-top: 15px;
+        margin-bottom: 0;
+
+     }
     
     .hebergements-and-populaires {
         flex-direction: column;
